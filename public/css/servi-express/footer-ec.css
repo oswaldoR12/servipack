@@ -1,0 +1,50 @@
+
+
+
+:root {
+    --theme-color: #25294a;
+    }
+
+    .header-bottom-my-casillero .modal-selector-casilleros-toggler {
+    display: none;
+    }
+
+    .menufooterinfo .titular {
+    pointer-events: none;
+    cursor: default;
+    }
+
+    .menufooterinfo>a {
+    pointer-events: none;
+    cursor: default;
+    }
+
+    .footer.footer .footer-data .main-menu {
+
+    gap: 30px 17px;
+
+    }
+
+    @media (min-width: 1200px) {
+    .footer.footer .footer-data .main-menu {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    }
+
+
+    .footer-legal {
+    position: relative;
+    }
+
+    .footer-legal:before {
+    content: "";
+    position: absolute;
+    top: -52px;
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("") no-repeat center/contain;
+    }
+

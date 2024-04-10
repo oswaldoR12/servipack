@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16pt" height="16pt" viewBox="0 0 16 16" version="1.1">
+    <defs>
+        <filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+            <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+        </filter>
+        <image id="image7" width="16" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAAOElEQVQ4jWNgGGjA+P83vz0DwxZW8rT7/Gb8/4f5PyUuYKJE86gBowbAAAvDfx4HSpIypQ6gHAAAD/oKqfLWK3AAAAAASUVORK5CYII="/>
+        <mask id="mask0">
+            <g filter="url(#alpha)">
+                <use xlink:href="#image7"/>
+            </g>
+        </mask>
+        <clipPath id="clip1">
+            <rect x="0" y="0" width="16" height="16"/>
+        </clipPath>
+        <g id="surface6" clip-path="url(#clip1)">
+            <path style="stroke:none;fill-rule:evenodd;fill:rgb(81.568627%,18.431373%,26.666667%);fill-opacity:1" d="M16 3.785H0v1.203h16zm0 2.41H0v1.203h16zM0 8.602h16v1.203H0zm16 2.41H0v1.203h16zm0 0"/>
+        </g>
+    </defs>
+    <g id="surface1">
+        <path style="stroke:none;fill-rule:nonzero;fill:rgb(94.901961%,88.235294%,30.196078%);fill-opacity:1" d="M.195 2.73h15.61c.11 0 .195.09.195.196v10.148a.196.196 0 0 1-.195.196H.195A.196.196 0 0 1 0 13.074V2.926c0-.106.086-.196.195-.196zm0 0"/>
+        <use xlink:href="#surface6" mask="url(#mask0)"/>
+    </g>
+</svg>
